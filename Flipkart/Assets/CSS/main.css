@@ -178,7 +178,7 @@ body{
 
 .navbar .center_navbar .center2 .navsearch{
 
-    width: 812px;
+    width: 400px;
     height: 40px;
     border: none;
     margin-left: 20px;
@@ -228,6 +228,7 @@ body{
     margin-left: 30px;
     font-weight: 500;
     color:#f0f0f0 ;
+    min-width: 120px;
 
 } 
 
@@ -235,19 +236,21 @@ body{
 .navbar .center_navbar .center5{
     display: flex;
     align-items: center;
+    min-width: 120px;
 } 
 
 .navbar .center_navbar .center5 ul li a.more{
     text-decoration: none;
     color: #f0f0f0;
 }
+
 .navbar .center_navbar .center5 ul{
+    min-width: 120px;
     list-style-type: none;
 }
 
 .navbar .center_navbar .center5 ul li .dropdown{
     min-width: 240px; 
-    right: 25%;
     background: #ffff;
     display: none;
     position: absolute;
@@ -262,6 +265,18 @@ body{
 .navbar .center_navbar .center5 ul li ul.dropdown li{
     display: block;
 }
+
+.navbar .center_navbar .center6{
+    display: flex;
+    align-items: center;
+} 
+
+.navbar .center_navbar .center6 a{
+    display: flex;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
 
 
 
