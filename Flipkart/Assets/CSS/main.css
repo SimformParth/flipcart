@@ -1,0 +1,291 @@
+/* body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #2874f0;
+    padding: 7px;
+    width: 100%; 
+    will-change: transform;
+    flex-direction: row;
+
+
+    
+}
+
+
+.flipcart_image .active img{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 25px;
+    
+}
+
+.navbar .flipcart_image #explore{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .flipcart_image #explore span{
+    color: #ffe500;
+}
+
+.navbar #explore img{
+    width: auto;
+    height: 15px;
+}
+
+
+
+.navbar .navsearch{
+    width: 520px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 4px 0 0 4px;
+    padding-left: 15px;
+}
+
+.navbar .navsearch:focus{
+    outline: none;
+}
+
+.navbar .searchbtn{
+    background-color: #ffff;
+    border: none;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+} */
+
+/* clears the ‘X’ from Chrome in navsearch bar */
+/* input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+
+.navlogin{
+    margin-left: 20px;
+    background-color: #ffff;
+    border: none;
+    width: 120px;
+    height: 35px;
+    color: #2874f0;
+    border-radius: 4px;
+}
+
+.navbar ul li{
+    display: block;
+    float: left;
+    color: #ffff;
+    font-weight: 500;
+    margin-left: 20px ;
+}
+
+ul ul .dropdown {
+    min-width: 100%; /* Set width of the dropdown */
+    /* background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}  */
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    position: relative;
+    /* background-color: #2874f0; */
+}
+
+.navbar{
+    display: flex;
+    position:sticky ;
+    width: auto;
+    height: 56px;
+    background-color: #2874f0;
+    flex-direction: row;
+}
+
+.navbar .empty{
+    height: 100%;
+    min-width: 124px;
+}
+
+
+.navbar .center_navbar{
+    display: flex;
+    max-width: 1248px;
+    margin: 0;
+    background-color: #2874f0;
+}
+
+.navbar .center_navbar .center1{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 137px;
+}
+
+.navbar .center_navbar .center1 .flip_img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.navbar .center_navbar .center1 .flip_img img{
+    width: 75px;
+    height: auto;
+
+}
+
+.navbar .center_navbar .center1 .flip_img .explor{
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+    color:#f0f0f0 ;
+}
+
+.navbar .center_navbar .center1 .flip_img .explor img{
+    width: 10px;
+}
+
+.navbar .center_navbar .center1 .flip_img .explor span{
+    color: #ffe500;
+}
+
+.navbar .center_navbar .center2{
+    display: flex;
+    justify-content:flex-start ;
+    min-width: 304px;
+    border: none;
+    border-radius: 2px;
+    width: calc(100% - 540px);
+    align-items: center;
+} 
+
+.navbar .center_navbar .center2 .navsearch{
+
+    width: 812px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 4px 0 0 4px;
+    padding-left: 15px;
+    background-color: #f0f0f0;
+    outline: none;
+    font-size: 16px;
+
+}
+
+
+.navbar .center_navbar .center2 .searchbtn{
+
+    background-color: #f0f0f0;
+    border: 5px solid #f0f0f0;
+    height: 42px;
+    border-radius: 0 4px 4px 0;
+}
+
+.navbar .center_navbar .center3{
+    display: flex;
+    align-items: center;
+} 
+
+.navbar .center_navbar .center3 button{
+    display: flex;
+    margin-left: 20px;
+    height: 35px;
+    align-items: center;
+    padding: 5px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px 2px 2px 2px ;
+    color: #2874f0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar .center_navbar .center4{
+    display: flex;
+    align-items: center;
+} 
+
+.navbar .center_navbar .center4 .become{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    color:#f0f0f0 ;
+
+} 
+
+
+.navbar .center_navbar .center5{
+    display: flex;
+    align-items: center;
+} 
+
+.navbar .center_navbar .center5 ul li a.more{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+.navbar .center_navbar .center5 ul{
+    list-style-type: none;
+}
+
+.navbar .center_navbar .center5 ul li .dropdown{
+    min-width: 240px; 
+    right: 25%;
+    background: #ffff;
+    display: none;
+    position: absolute;
+    margin-top: 22px;
+    box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%);
+}
+
+.navbar .center_navbar .center5 ul li:hover ul.dropdown{
+    display: block;
+}
+
+.navbar .center_navbar .center5 ul li ul.dropdown li{
+    display: block;
+}
+
+
+
+/* .navbar .center_navbar #flipkartlogo{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    height: 35px;
+}
+
+.navbar .center_navbar #explore{
+    display: flex;
+    text-decoration: none;
+    color: #ffff;
+    width: auto;
+    height: 15px;
+
+}
+
+.navbar .center_navbar #explore span{
+    margin-left: 5px;
+    color: #ffe500;
+    margin-right: 5px;
+} */
+
+
