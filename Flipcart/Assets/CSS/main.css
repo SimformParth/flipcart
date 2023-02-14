@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    background-color: #2874f0;
+    overflow: hidden;
+    padding: 7px; 
+
+    
+}
+
+
+.flipcart_image .active img{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 25px;
+    
+}
+
+.navbar .flipcart_image #explore{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .flipcart_image #explore span{
+    color: #ffe500;
+}
+
+.navbar #explore img{
+    width: auto;
+    height: 15px;
+}
+
+
+
+.navbar .navsearch{
+    width: 520px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 4px 0 0 4px;
+    padding-left: 15px;
+}
+
+.navbar .navsearch:focus{
+    outline: none;
+}
+
+.navbar .searchbtn{
+    background-color: #ffff;
+    border: none;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+}
+
+/* clears the ‘X’ from Chrome in navsearch bar */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+
+.navlogin{
+    margin-left: 20px;
+    background-color: #ffff;
+    border: none;
+    width: 120px;
+    height: 35px;
+    color: #2874f0;
+    border-radius: 4px;
+}
+
+.navbar ul li{
+    display: block;
+    float: left;
+    color: #ffff;
+    font-weight: 500;
+    margin-left: 20px ;
+}
+
+ul ul .dropdown {
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
